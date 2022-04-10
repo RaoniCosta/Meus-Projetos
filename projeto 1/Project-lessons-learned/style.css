@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ 
+}
+header{
+top: 0;
+position: fixed;
+padding: auto;
+padding-top: 0;
+
+}
+body {
+  font-family: Arial, Helvetica, sans-serif; /* requisito 14 - foi alterado atributos relacionado a fonte  */
+  font-size: medium;
+  font-style: normal;
+  background-color:rgb(253, 251, 251); /*  requisito 1 - foi adicionada cor de fundo*/
+  text-align: center;
+  color: rgb(85, 74, 74);
+  line-height: 30px;
+  margin: 0;  /* requisito 13 - foi adicionado box model - margin, padding, border nos elementos */
+}
+
+#cabecalho {
+  position: fixed;
+  top:0;
+  text-align: center;
+  padding: 30px ;
+  font-size: 20px;
+  width: 100%;
+  position:fixed;
+  background-color: rgb(9, 9, 54); 
+  justify-content: space-around;
+  flex: 1;
+}
+
+#titulo {
+  color: rgb(255, 255, 255);
+  
+}
+
+#minha_foto { 
+  width: 250px;
+  padding: 0;
+  border: 5px solid rgb(66, 15, 206); /* requisito 13 - foi adicionado box model - margin, padding, border nos elementos */
+  border-radius: 50%;
+}
+
+#licoes_aprendidas {
+  padding: 2rem;
+  border-color: rgb(79, 93, 219);
+  background-color: rgb(135, 166, 222);  
+}
+
+#licoes_a_aprender {
+  padding: 2rem;
+  background-color: rgb(77, 103, 187);  
+}
+
+#rodape {
+  background-color: skyblue;
+}
+
+.lado-direito{
+  text-align: center;  
+  float: right;
+  padding: 60px;
+  background-color: cornflowerblue;
+  display: inline-flex;
+  width: 30%;
+}
+
+.lado-esquerdo{
+  text-align: center;
+  padding: 45px; /* requisito 13 - foi adicionado box model - margin, padding,border nos elementos */
+  background-color: rgb(142, 142, 230);
+  width: 50%;
+  display: inline-block 
+}
+/* requisito 15 - foi posicionado o seu article e a seção sobre aprendizados um ao lado do outro  */

@@ -1,0 +1,82 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(10, 9, 9);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: 100%;
+}
+
+
+.color {
+
+border: black solid 1px;
+width: 40px;
+height: 40px;
+display: inline-block ;
+
+}
+
+#color-palette {
+margin-top: 20px;
+
+}
+
+
+#pixel-board {
+    margin-left: 540px;
+    margin-top: 20px;
+}
+
+#black {
+
+    background-color: black;
+    
+
+}
+
+#yellow {
+    background-color: yellow;
+    
+}
+
+#green {
+    background-color: green;
+    
+}
+
+#red {
+    background-color:red;
+}
+
+body {
+   background-color: rgba(90, 206, 248, 0.76);
+}
+
+.pixel {
+    width: 40px;
+    height: 40px;
+    border: solid 1px black;
+    background-color: white;
+    display: table-cell;
+}
+
+
+.colorindoText{
+    color: black;
+    text-align: justify;
+}
+
+button{
+padding: 20px;
+width: 90px;
+height: 30px;
+margin-top: 20px;
+
+}
